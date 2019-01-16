@@ -1,6 +1,8 @@
 html,body {
 	margin: 0;
 	padding: 0;
+	font-family: Arial, tahoma, helvetica, sans-serif;
+	font-size: 13px;
 }
 #ZgornjaPasica{
 	width: 950px;
@@ -97,9 +99,19 @@ html,body {
 	width: 700px;
 }
 #Sorodno {
-	background-color: orange;
+	background-color: #efe9e7;
+	padding: 20px;
+	margin:10px 0;
+	box-sizing: border-box;
+	border-radius: 20px;
 	min-height:350px;
 	width: 250px;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	border-bottom: 1px solid #ddd;
 }
 #Noga {
 	background-image: linear-gradient(to bottom, #739ad0 0, #739ad0 10%, #fff 10%, #fff 15%, #6b3305 15%, #6b3305 100%);
