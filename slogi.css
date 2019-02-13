@@ -98,6 +98,7 @@ body {
 	transition: all 1s ease; 
 }
 #Vsebina {
+	margin: 0 auto;
 	min-height: 350px;
 	width: 950px;
 	display: flex;
@@ -149,6 +150,7 @@ h2 {
 	filter: contrast(150%);
 }
 #Noga {
+	margin: 0 auto;
 	background-image: linear-gradient(to bottom, var(--modra) 0, var(--modra) 10%, var(--bela) 10%, var(--bela) 15%, var(--rjava) 15%, var(--rjava) 100%);
 	background-repeat: repeat-x;
 	color: var(--bela);
