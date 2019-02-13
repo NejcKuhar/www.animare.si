@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sl">
+    <head>
+        <meta charset="utf-8">
+        <title>Galerija</title>
+        <meta name="description" content="Galerija">
+        <meta name="keywords" content="splet,html,css,okvirji">
+        <meta name="author" content="Nejc Dragar">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" href="slogi.css">
+        <link rel="stylesheet" type="text/css" href="./css/prettyPhoto.css">
+        <script type="text/javascript" src="./js/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.prettyPhoto.js"></script>
+    </head>
+    <body>
+        <div id="GlavniOkvir">
+            <div id="ZgornjaPasica">
+                <a href="./index.html" title="Domov" target="_self">
+                    <img src="Grafika/logo.png" alt="Domov" class="Logo">
+                </a>
+                <div id="FacebookTwitter">
+                    <p>Pridruži se:</p>
+                    <a href="https://www.facebook.com/" title="Facebook" target="_blank">
+                        <img src="./Grafika/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.twitter.com/" title="Twitter" target="_blank">
+                        <img src="Grafika/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <header id="Glava"></header>
+            <nav id="Navigacija">
+                <ul>
+                    <li><a href="./index.html" target="_self" title="Domov">Domov</a></li>
+                    <li><a href="./Zgodovina.html" target="_self" title="Zgodovina">Zgodovina</a></li>
+                    <li><a href="./Tehnike.html" target="_self" title="Tehnike">Tehnike</a></li>
+                    <li><a href="./Prijavnica.html" target="_self" title="Prijavnica">Prijavnica</a></li>
+                    <li><a href="./Festivali.html" target="_self" title="Festivali">Festivali</a></li>
+                    <li><a href="./Galerija.html" target="_self" title="Galerija">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="Vsebina">
+            <article id="Clanek">
+                <a href="./Grafika/Naprava_L.jpg" rel="prettyPhoto" title="Z napravo lahko ustvarimo iluzijo gibanja."><img src="./Grafika/Naprava.jpg" class="GalerijaSlik" alt="Z napravo ustvarimo iluzijo gibanja." title="Z napravo lahko ustvarimo iluzijo gibanja."></a>
+                <a href="./Grafika/Posoda_L.jpg" rel="prettyPhoto" title="Lončena posoda."><img src="./Grafika/Posoda.jpg" class="GalerijaSlik" alt="Lončena posoda." title="Lončena posoda."></a>
+                <a href="./Grafika/Zaba_L.jpg" rel="prettyPhoto" title="Žaba iz plestelina (tehnika &#8220;stop-motion&#8221;)."><img src="./Grafika/Zaba.jpg" class="GalerijaSlik" alt="Žaba iz plestelina (tehnika &#8220;stop-motion&#8221;)." title="Žaba iz plestelina (tehnika &#8220;stop-motion&#8221;)."></a>
+                <a href="./Grafika/Animacija_L.jpg" rel="prettyPhoto" title="Z animacijo lahko prikažejo nadnaravne sposobnosti."><img src="./Grafika/Animacija.jpg" class="GalerijaSlik" alt="Z animacijo lahko prikažejo nadnaravne sposobnosti." title="Z animacijo lahko prikažejo nadnaravne sposobnosti."></a>
+                <a href="./Grafika/FestivalVetrnica_L.jpg" rel="prettyPhoto" title="Festival vetrnica."><img src="./Grafika/FestivalVetrnica.jpg" class="GalerijaSlik" alt="Festival vetrnica."     title="Festival vetrnica."></a>
+                <a href="http://youtube.com" rel="prettyPhoto" title="Tehnika pikselacije."><img src="./Grafika/Pikselacija.jpg" class="GalerijaSlik" alt="Tehnika pikselacije." title="Tehnika pikselacije."></a>
+            </article>
+            <aside id=Sorodno>
+                <iframe width="210" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.si/maps?hl=sl&amp;ie=UTF8&amp;t=m&amp;ll=46.051456,14.507307&amp;spn=0.001117,0.001127&amp;z=18&amp;output=embed"></iframe>
+            <br>
+            <small>
+                <a href="https://maps.google.si/maps?hl=sl&amp;ie=UTF8&amp;t=m&amp;ll=46.051456,14.507307&amp;spn=0.001117,0.001127&amp;z=18&amp;source=embed" style="text-align:left">Prikaži večji zemljevid</a>
+            </small>
+            </aside>
+        </section>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+    </script>   
+    </body>
+        <footer id="Noga">
+            Društvo iluzije gibanja | Pingvinova 14, Ljubljana | <a href="http://www.animare.si" target="_blank">www.animare.si</a>
+        </footer>
+    </body>
+    
+</html>
